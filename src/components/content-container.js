@@ -6,6 +6,7 @@ module.exports = React.createClass({
 
     if (this.props.className) {
       className += ` ` + this.props.className;
+
     }
     return (
       <div className={className}>

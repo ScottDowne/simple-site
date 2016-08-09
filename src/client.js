@@ -9,6 +9,7 @@ import ga from 'react-ga';
 import locales from '../public/locales.json';
 
 function createElement(Component, props) {
+
   var locale = window.location.pathname.split("/")[1];
   var ReactIntlLocaleData = window.ReactIntlLocaleData;
   var messages = locales[locale];
